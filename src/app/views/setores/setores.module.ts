@@ -1,23 +1,21 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-// import { ProfessorCreateComponent } from './pages/professor-create/professor-create.component';
-import { GenericRouterComponent, setoresRoutingModule } from './setores-routing.module';
-// import { ProfessorListComponent } from './pages/professor-list/professor-list.component';
+import { GenericRouterComponent, SetoresRoutingModule } from './setores-routing.module';
 import { FormsModule } from '@angular/forms';
 import { SetoresListComponent } from './setores-list/setores-list.component';
-// import { ProfessorAtualizarComponent } from './pages/professor-atualizar/professor-atualizar.component';
-
-
+// import { DefaultListComponent } from 'src/app/components/default-list/default-list.component';
 
 @NgModule({
   declarations: [
     GenericRouterComponent,
     SetoresListComponent,
+    // DefaultListComponent
   ],
   imports: [
     CommonModule,
     FormsModule,
-    setoresRoutingModule
+    SetoresRoutingModule,
   ]
 })
-export class ProfessorModule { }
+
+export class SetoresModule { }

@@ -6,6 +6,10 @@ import { Router } from '@angular/router';
   templateUrl: './setores-list.component.html',
   styleUrls: ['./setores-list.component.scss']
 })
-export class SetoresListComponent {
 
+export class SetoresListComponent implements OnInit {
+
+  ngOnInit(): void {
+    
+  }
 }

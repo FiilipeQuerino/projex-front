@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { DefaultListComponent } from './components/default-list/default-list.component';
 import { MenuSideBarComponent } from './components/menu-sidebar/menu-sidebar.component';
 import { LoginComponent } from './security/login/login.component';
+import { SetoresModule } from './views/setores/setores.module';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { LoginComponent } from './security/login/login.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SetoresModule
   ],
   providers: [],
   bootstrap: [AppComponent]

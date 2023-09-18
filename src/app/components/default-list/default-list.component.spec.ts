@@ -1,5 +1,4 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { DefaultListComponent } from './default-list.component';
 
 describe('DefaultListComponent', () => {
