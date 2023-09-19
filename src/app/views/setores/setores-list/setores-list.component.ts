@@ -10,6 +10,6 @@ import { Router } from '@angular/router';
 export class SetoresListComponent implements OnInit {
 
   ngOnInit(): void {
-    
+
   }
 }
